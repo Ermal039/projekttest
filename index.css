@@ -1,0 +1,29 @@
+img{
+    width: 70px;
+    height: 70px;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 20px;}
+
+
+    
+/* Vlen per te gjitha elementet <a> qe jane brenda elementit <nav> */
+nav a{
+    color: blue;
+}
+/* Vlen vetem per elementet <a> qe jane direkt pas elementit nav */
+nav > a{
+    color: red;
+}
+
